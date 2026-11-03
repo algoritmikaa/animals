@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4ffe5;
+    margin: 0;
+}
+
+header {
+    background-color: #2e8b57;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Ссылки в шапке оформлены как кнопки */
+header a {
+    text-decoration: none;
+    color: white;
+    background-color: #3cb371;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    color: #1b4d3e;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #2e8b57;
+}
+
+main {
+    text-align: center;
+    padding: 15px;
+}
+
+/* Контекстный селектор: абзацы в основном разделе */
+main p {
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Оформление таблиц */
+table {
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+
+td {
+    border: 1px solid #2e8b57;
+    padding: 10px;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Форма заявки */
+form {
+    background-color: white;
+    border: 2px solid #2e8b57;
+    border-radius: 10px;
+    padding: 15px;
+    width: 550px;
+    margin: 20px auto;
+}
+
+input {
+    font-size: 16px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #2e8b57;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Контекстный селектор: абзацы в подвале */
+footer p {
+    color: white;
+    font-size: 16px;
+}
+
+/* Селекторы по классу */
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.pet-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+}
+
+.photo {
+    width: 500px;
+    height: 270px;
+    border: 3px solid #2e8b57;
+    border-radius: 15px;
+}
+
+.tip {
+    background-color: #d4edda;
+    border: 2px solid #2e8b57;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px auto;
+    width: 550px;
+}
+
+.btn {
+    background-color: #2e8b57;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 16px;
+}
